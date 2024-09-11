@@ -1,5 +1,6 @@
                                               Gravity-Books-ETL-Project
 # DB Tables description: 
+
 •	book: a list of all books available in the store. \
 •	book_author: stores the authors for each book, which is a many-to-many relationship. \
 •	author: a list of all authors.
@@ -15,10 +16,9 @@
 •	shipping_method: the possible shipping methods for an order. \
 •	order_history: the history of an order, such as ordered, cancelled, delivered. \
 •	order_status: the possible statuses of an order. \
-
 --------------------------------------------------------------------------------------------------------------------------
 
-DWH Inights Description:
+# DWH Inights Description:
 
 •  Total Sales: 84.23K \
 •  Delivered: 2995 orders have been successfully delivered. \
@@ -34,6 +34,11 @@ o	 Express: 47.38% \
 o	 Standard: 39.8% \
 o	 International: 12.32% \
 
+  
+![Screenshot 2024-09-11 113512](https://github.com/user-attachments/assets/f5b5e85a-f0cb-4ba8-9959-89de6bfcb448)
+
+
+
 •	Count of Books: 11.13K total books in the system. \
 •	Languages: 27 different languages available. \
 •	Publishers: 2251 different publishers. \
@@ -43,6 +48,11 @@ o	English leads with 8911 books, followed by US English (1409), Spanish (218), B
 Sum of Price by Title: A bar chart showing prices by book titles, where popular titles like The Odyssey, Salem’s Lot, and Anna Karenina are priced around 149-121 units. \
 Count of Books by Publisher: A bar chart showing books distributed by publishers \
 o	Vintage leads with 318 books, followed by Penguin Books (261), Penguin Classics (184), and other major publishers like Mariner Books (150) and HarperCollins (111). \
+
+
+
+![Screenshot 2024-09-11 113556](https://github.com/user-attachments/assets/45fbc96d-4a1e-447d-8610-cf208ceab3bc)
+
 
 Customers: A total of 2000 customers. \
 •  Customers per Shipping Method: A bar chart showing customer distribution by shipping method: \
@@ -59,3 +69,6 @@ Customers: A total of 2000 customers. \
 •	Standard: 6 units. \
 • Orders per Customer: A bar chart and line graph showing orders per customer. The graph indicates steady customer orders across various individuals, peaking at 393 order.
 
+
+
+![Screenshot 2024-09-11 113640](https://github.com/user-attachments/assets/873b46f9-c6a0-49a4-b992-baaad50376d4)
