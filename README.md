@@ -16,10 +16,18 @@
 •	shipping_method: the possible shipping methods for an order. \
 •	order_history: the history of an order, such as ordered, cancelled, delivered. \
 •	order_status: the possible statuses of an order. \
+![Gravity Books DB Diagram](https://github.com/user-attachments/assets/ac984e82-2bf6-4e02-bbef-c4b1f5b8f07d)
+
 --------------------------------------------------------------------------------------------------------------------------
+# DWH Diagram:
+
+![Gravity Books DWH Digram](https://github.com/user-attachments/assets/9bb86f28-9cbb-404a-91cb-389e8d0fa62c)
+
+### There are Queries which show the SQL and SSIS Packages running in Files (SQL Queries & SSIS Queries)
+### There is A Mapping Sheet which indicates the structure between Source And Destination
+
 
 # DWH Inights Description:
-
 •  Total Sales: 84.23K \
 •  Delivered: 2995 orders have been successfully delivered. \
 •  Pending Delivery: 6800 orders are awaiting delivery. \
